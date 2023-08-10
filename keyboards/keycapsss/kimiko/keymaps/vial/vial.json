@@ -2,6 +2,33 @@
     "name": "Kimiko",
     "vendorId": "0x7983",
     "productId": "0x4B69",
+    "customKeycodes": [
+        {
+            "name": "Prev Word",
+            "title": "Previous Word",
+            "shortName": "PRVWD"
+        },
+        {
+            "name": "Next Word",
+            "title": "Next Word",
+            "shortname": "NXTWD"
+        },
+        {
+            "name": "Line Start",
+            "title": "Line Start",
+            "shortName": "LSTRT"
+        },
+        {
+            "name": "Line End",
+            "title": "Line End",
+            "shortName": "LEND"
+        },
+        {
+            "name": "Delete Line",
+            "title": "Delete Line",
+            "shortName": "DLINE"
+        }
+    ],
     "lighting": "qmk_rgblight",
     "matrix": {
         "rows": 10,
