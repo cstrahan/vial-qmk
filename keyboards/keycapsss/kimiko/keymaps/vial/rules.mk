@@ -8,6 +8,7 @@ VIAL_ENABLE = yes		   # Enable vial support
 LTO_ENABLE = yes
 
 QMK_SETTINGS = yes
+ENCODER_ENABLE = yes
 ENCODER_MAP_ENABLE = yes
 
 MOUSEKEY_ENABLE = yes      # Mouse keys
@@ -15,4 +16,4 @@ EXTRAKEY_ENABLE = yes      # Audio control and System control
 RGBLIGHT_ENABLE = yes      # Enable keyboard RGB underglow
 AUDIO_ENABLE = no          # Audio output
 
-ENCODER_MAP_ENABLE = yes
+NKRO_ENABLE = yes
