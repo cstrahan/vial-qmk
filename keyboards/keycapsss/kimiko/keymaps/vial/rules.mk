@@ -13,7 +13,12 @@ ENCODER_MAP_ENABLE = yes
 
 MOUSEKEY_ENABLE = yes      # Mouse keys
 EXTRAKEY_ENABLE = yes      # Audio control and System control
-RGBLIGHT_ENABLE = yes      # Enable keyboard RGB underglow
+RGB_MATRIX_DRIVER = WS2812
+WS2812_DRIVER = vendor     # Use PIO on RP2040
+RGB_MATRIX_ENABLE = yes
+RGBLIGHT_ENABLE = no      # We'll use RGB_MATRIX instead
+VIALRGB_ENABLE = yes
 AUDIO_ENABLE = no          # Audio output
 
 NKRO_ENABLE = yes
+
